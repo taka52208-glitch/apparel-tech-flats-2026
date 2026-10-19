@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Apparel Tech Flats</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #f5f4f1; --ink: #18181a; --sub: #66676b; --line: #d6d4ce; --card: #fff; --accent: #c2410c; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--ink); font-family: 'Noto Sans JP', sans-serif; line-height: 1.8; }
+  header, main, footer { max-width: 1200px; margin: 0 auto; padding-left: 16px; padding-right: 16px; }
+  header { padding-top: 64px; padding-bottom: 36px; }
+  .eyebrow { font-family: 'Oswald', sans-serif; font-weight: 600; letter-spacing: .3em; font-size: 12px; color: var(--sub); }
+  h1 { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: clamp(32px, 6vw, 54px); letter-spacing: .04em; line-height: 1.1; margin: 12px 0 18px; }
+  .lead { color: #3b3c40; font-size: 14px; max-width: 760px; }
+  .lead + .lead { margin-top: 8px; }
+  main { display: grid; gap: 40px; padding-bottom: 72px; }
+  article { background: var(--card); border: 1px solid var(--line); }
+  article a.sheet { display: block; border-bottom: 1px solid var(--line); }
+  article img { display: block; width: 100%; height: auto; }
+  .body { padding: 20px 20px 24px; }
+  .meta { font-family: 'Oswald', sans-serif; font-size: 12px; letter-spacing: .2em; color: var(--sub); }
+  h2 { font-size: 20px; font-weight: 700; margin: 4px 0 10px; }
+  ul { list-style: none; font-size: 13.5px; color: #3b3c40; }
+  li { padding-left: 1em; text-indent: -1em; margin-top: 6px; }
+  li::before { content: '・'; }
+  .links { margin-top: 14px; font-size: 13px; display: flex; gap: 18px; flex-wrap: wrap; }
+  .links a { color: var(--accent); }
+  footer { padding-bottom: 56px; font-size: 12px; color: var(--sub); }
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">PORTFOLIO — APPAREL DESIGN</div>
+  <h1>Apparel Tech Flats</h1>
+  <p class="lead">フィットネスブランドを想定したアパレルのデザイン画（前・後ろ・袖）です。各グラフィックに番号を振り、位置・大きさ・色・加工方法を書き込んで、工場にそのまま渡せる形にしています。</p>
+  <p class="lead">服の形もグラフィックもすべてベクターで作図しており、画像生成AIの画像は使っていません。各シートのベクターデータ（SVG）も開けます。</p>
+</header>
+<main>
+  <article>
+    <a class="sheet" href="img/tee.png"><img src="img/tee.png" alt="オーバーサイズTシャツのデザイン画。前面に左胸マーク、背面にひび割れ加工のHEAVY DAYS" width="1900" height="1320" loading="lazy"></a>
+    <div class="body">
+      <div class="meta">SL-26AW-01 · OVERSIZED BOXY TEE</div>
+      <h2>オーバーサイズ ボクシーTシャツ</h2>
+      <ul>
+        <li>背面の大きな文字はクラック加工（ひび割れ）で、洗い込んだ風合いを出す</li>
+        <li>左胸はバーベルのプレートを図案化したマーク、左袖に小さな文字</li>
+        <li>黒・チャコール・グレーの3色展開で、差し色は使わない</li>
+      </ul>
+      <div class="links"><a href="img/tee.png">大きい画像</a><a href="sheets/tee.svg">ベクターデータ（SVG）</a></div>
+    </div>
+  </article>
+  <article>
+    <a class="sheet" href="img/hoodie.png"><img src="img/hoodie.png" alt="フーディのデザイン画。胸に斜体ロゴの刺繍、背面にアーチ文字とナンバー27のワッペン" width="1900" height="1320" loading="lazy"></a>
+    <div class="body">
+      <div class="meta">SL-26AW-02 · HEAVYWEIGHT MOTO HOODIE</div>
+      <h2>ヘビーウェイト モトクロス フーディ</h2>
+      <ul>
+        <li>モトクロスのゼッケンをワッペンにし、背面の主役にする</li>
+        <li>胸は刺繍、背面は発泡プリントとワッペンで、手触りを3種類に分ける</li>
+        <li>袖の中心線に沿わせた縦長ロゴで、袖まで使ったグラフィックにする</li>
+      </ul>
+      <div class="links"><a href="img/hoodie.png">大きい画像</a><a href="sheets/hoodie.svg">ベクターデータ（SVG）</a></div>
+    </div>
+  </article>
+  <article>
+    <a class="sheet" href="img/jersey.png"><img src="img/jersey.png" alt="メッシュのフットボールジャージ型トップスのデザイン画。前後にナンバー92、袖に2本ライン" width="1900" height="1320" loading="lazy"></a>
+    <div class="body">
+      <div class="meta">SL-26AW-03 · MESH FOOTBALL JERSEY TOP</div>
+      <h2>メッシュ フットボールジャージ型トップス</h2>
+      <ul>
+        <li>アメフトのユニフォームの番号を、タックルツイルの2層で再現</li>
+        <li>脇はエアメッシュに切り替え、トレーニング中の熱を逃がす</li>
+        <li>袖の2本ラインは切り替えで作り、プリントのひび割れを避ける</li>
+      </ul>
+      <div class="links"><a href="img/jersey.png">大きい画像</a><a href="sheets/jersey.svg">ベクターデータ（SVG）</a></div>
+    </div>
+  </article>
+</main>
+<footer>掲載のブランド名「STRAYLIFT」と商品は、すべて架空のものです。</footer>
+</body>
+</html>
